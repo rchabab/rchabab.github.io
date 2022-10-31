@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(229, 241, 236)
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:block;
+    color:rgb(238, 255, 250)
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(active) {
+    background-color: azure;
+}
+
+
+#body1 {
+    background-color:antiquewhite
+
+
+}
+
+#body2 {
+    background-color:rgb(93, 158, 133)
+
+}
+
+#body3 {
+    background-color:beige ;
+
+}
+
+#body4 {
+    background-color: cadetblue;
+}
+#body5 {
+    background-color:beige 
+
+}
+#body6 {
+    background-color:azure
+}
+
