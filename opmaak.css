@@ -19,23 +19,23 @@ li a {
 }
 
 li a:hover:not(active) {
-    background-color: rgb(115, 245, 245);
+    background-color: rgb(72, 165, 126);
 }
 
 
 #body1 {
-    background-color:rgb(248, 223, 190)
+    background-color:rgb(123, 192, 171)
 
 
 }
 
 #body2 {
-    background-color:rgb(149, 233, 201)
+    background-color:rgb(88, 146, 124)
 
 }
 
 #body3 {
-    background-color:rgb(243, 243, 182) ;
+    background-color:rgb(87, 139, 122) ;
 
 }
 
