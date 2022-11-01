@@ -19,7 +19,7 @@ li a {
 }
 
 li a:hover:not(active) {
-    background-color: azure;
+    background-color: rgb(115, 245, 245);
 }
 
 
@@ -30,7 +30,7 @@ li a:hover:not(active) {
 }
 
 #body2 {
-    background-color:rgb(93, 158, 133)
+    background-color:rgb(57, 176, 130)
 
 }
 
@@ -42,5 +42,10 @@ li a:hover:not(active) {
 #body4 {
     background-color: cadetblue;
 }
-
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: brown;
+    color:aliceblue;
+}
 
