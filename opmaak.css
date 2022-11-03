@@ -1,6 +1,6 @@
 
 /* De ul hieronder gaat om het menu van de website, overflow voorkomt dat je gaat scrollen wanneer een deel van de tekst te groot is, de padding betekent hoeveel de menutekst
-van de zijkant af zit en de margin houdt de afstand tussen de eerste stuk tekst en het menu in.*/
+van de zijkant af zit en de margin houdt de afstand tussen de eerste stuk tekst en het menu*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -9,11 +9,10 @@ ul {
     background-color:rgb(79, 179, 137)
 }
 
-li {
-    float: left;
-}
-/* De display, color, text-align, padding en text decoration worden in dit commentaar toegelicht. De li a gaat hierover. De menu krijgt een klur en grootte. */
+
+
 li a {
+    float: left;
     display:block;
     color:rgb(73, 165, 126);
     text-align: center;
@@ -22,7 +21,7 @@ li a {
 }
 
 li a:hover:not(active) {
-    background-color: rgb(93, 39, 163);
+    background-color: rgb(223, 206, 245);
 }
 
 /* body 1 krijgt een backgroundcolor*/
