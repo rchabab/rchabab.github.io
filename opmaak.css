@@ -19,13 +19,15 @@ li a {
 }
 
 li a:hover:not(active) {
-    background-color: rgb(73, 166, 127)
+    background-color: rgb(73, 166, 127);
+}
 
-  
-    #body2 {
-        background-color:rgb(165, 199, 236)
-    
-    }
+
+#body1 {
+    background-color:rgb(187, 190, 233)
+
+
+}
 
 #body2 {
     background-color:rgb(165, 199, 236)
@@ -45,7 +47,7 @@ li a:hover:not(active) {
     background-color: rgb(204, 200, 241);
 }
 #body6 {
-    background-color: rgb(233, 204, 236);
+    background-color: cadetblue;
 }
 #body7 {
     background-color: rgb(191, 212, 230);
