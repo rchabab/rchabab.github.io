@@ -6,7 +6,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:rgb(79, 179, 137)
+    background-color:rgb(90, 161, 202)
 }
 
 /* li a staat voor de inhoud van het menu, zo krijgt het menu een kleur en de grootte bepaald. Float left houdt in dat de teksten van menu aan de linkerkant staan, de display 
@@ -15,7 +15,7 @@ krijgt voor elkaar dat de grootte samen met de padding wordt bepaald. */
 li a {
     float: left;
     display:block;
-    color:rgb(73, 165, 126);
+    color:rgb(76, 103, 228);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
