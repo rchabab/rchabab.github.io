@@ -10,20 +10,20 @@ ul {
 }
 
 /* li a staat voor de inhoud van het menu, zo krijgt het menu een kleur en de grootte bepaald. Float left houdt in dat de teksten van menu aan de linkerkant staan, de display 
-krijgt voor elkaar dat de grootte samen met de padding wordt bepaald. */
+krijgt voor elkaar dat de grootte samen met de padding wordt bepaald. Color is de kleir van mijn tekst in het menubalk en de background color is daar de achtergrond van */
 
 li a {
     float: left;
     display:block;
-    color:rgb(243, 201, 201);
+    color:rgb(224, 167, 167);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: rgb(219, 112, 210);
+    background-color: rgb(255, 255, 255);
 }
 /*De hover betekent de kleur van de tekst in je menu. Als je over een van de pagina's gaat met de muis zie je deze kleur. De tekst wordt okergelig*/
 li a:hover:not(active) {
-    background-color: rgb(85, 250, 9);
+    background-color: rgb(37, 250, 9);
 }
 
 /* body 1 krijgt een backgroundcolor*/
@@ -58,7 +58,7 @@ li a:hover:not(active) {
 #body7 {
     background-color: rgb(178, 204, 226);
 }
-/* footer krijgt een backgroundcolor in het donkerrood en lettertype in het lichtblauw */
+/* footer krijgt een backgroundcolor in het donkerrood en lettertype in het lichtblauw*/
 footer {
     text-align: center;
     padding: 3px;
