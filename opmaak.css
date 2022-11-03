@@ -21,39 +21,42 @@ li a {
 }
 
 li a:hover:not(active) {
-    background-color: rgb(73, 166, 127);
+    background-color: rgb(223, 206, 245);
 }
 
-
+/* body 1 krijgt een backgroundcolor*/
 #body1 {
     background-color:rgb(187, 190, 233)
 
 
 }
-
+/* body 2 krijgt een backgroundcolor*/
 #body2 {
     background-color:rgb(165, 199, 236)
 
 }
-
+/* body 3 krijgt een backgroundcolor*/
 #body3 {
     background-color:rgb(192, 196, 248) ;
 
 }
-
+/* body 4 krijgt een backgroundcolor*/
 #body4 {
     background-color: rgb(199, 205, 240);
 }
-
+/* body 5 krijgt een backgroundcolor*/
 #body5 {
     background-color: rgb(188, 226, 228);
 }
+/* body 6 krijgt een backgroundcolor*/
 #body6 {
     background-color: rgb(196, 225, 226);
 }
+/* body 7 krijgt een backgroundcolor*/
 #body7 {
     background-color: rgb(178, 204, 226);
 }
+/* footer krijgt een backgroundcolor in het donkerrood en lettertype in het lichtblauw */
 footer {
     text-align: center;
     padding: 3px;
