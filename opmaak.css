@@ -15,14 +15,15 @@ krijgt voor elkaar dat de grootte samen met de padding wordt bepaald. */
 li a {
     float: left;
     display:block;
-    color:rgb(76, 103, 228);
+    color:rgb(243, 201, 201);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: rgb(219, 112, 210);
 }
 /*De hover betekent de kleur van de tekst in je menu. Als je over een van de pagina's gaat met de muis zie je deze kleur. De tekst wordt okergelig*/
 li a:hover:not(active) {
-    background-color: rgb(204, 211, 145);
+    background-color: rgb(85, 250, 9);
 }
 
 /* body 1 krijgt een backgroundcolor*/
