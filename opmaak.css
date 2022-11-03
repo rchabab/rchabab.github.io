@@ -26,35 +26,35 @@ li a:hover:not(active) {
     background-color: rgb(37, 250, 9);
 }
 
-/* body 1 krijgt een backgroundcolor*/
+/* body 1 krijgt een backgroundcolor volgens rgb*/
 #body1 {
     background-color:rgb(187, 190, 233)
 
 
 }
-/* body 2 krijgt een backgroundcolor*/
+/* body 2 krijgt een backgroundcolor volgens rgb*/
 #body2 {
     background-color:rgb(165, 199, 236)
 
 }
-/* body 3 krijgt een backgroundcolor*/
+/* body 3 krijgt een backgroundcolor volgens rgb*/
 #body3 {
     background-color:rgb(192, 196, 248) ;
 
 }
-/* body 4 krijgt een backgroundcolor*/
+/* body 4 krijgt een backgroundcolor volgens rgb*/
 #body4 {
     background-color: rgb(199, 205, 240);
 }
-/* body 5 krijgt een backgroundcolor*/
+/* body 5 krijgt een backgroundcolor volgens rgb*/
 #body5 {
     background-color: rgb(189, 207, 145);
 }
-/* body 6 krijgt een backgroundcolor*/
+/* body 6 krijgt een backgroundcolor volgens rgb*/
 #body6 {
     background-color: rgb(196, 225, 226);
 }
-/* body 7 krijgt een backgroundcolor*/
+/* body 7 krijgt een backgroundcolor volgens rgb*/
 #body7 {
     background-color: rgb(178, 204, 226);
 }
