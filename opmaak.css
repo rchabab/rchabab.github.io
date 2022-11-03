@@ -6,7 +6,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:rgb(235, 214, 214)
+    background-color:rgb(255, 255, 255)
 }
 
 /* li a staat voor de inhoud van het menu, zo krijgt het menu een kleur en de grootte bepaald. Float left houdt in dat de teksten van menu aan de linkerkant staan, de display 
@@ -15,7 +15,7 @@ krijgt voor elkaar dat de grootte samen met de padding wordt bepaald. Color is d
 li a {
     float: left;
     display:block;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -23,7 +23,7 @@ li a {
 }
 /*De hover betekent de kleur van de tekst in je menu. Als je over een van de pagina's gaat met de muis zie je deze kleur. De tekst wordt okergelig*/
 li a:hover:not(active) {
-    background-color: rgb(224, 180, 113);
+    background-color: rgba(235, 190, 124, 0.671);
 }
 
 /* body 1 krijgt een backgroundcolor volgens rgb*/
