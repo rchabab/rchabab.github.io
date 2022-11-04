@@ -76,6 +76,10 @@ li a:hover:not(active) {
 }
 
 /* body 6 krijgt een backgroundcolor volgens rgb*/
+#kop17 { color:brown;
+}
+#kop18 { color:brown;
+}
 #body6 {
     background-color: rgb(196, 225, 226);
 }
