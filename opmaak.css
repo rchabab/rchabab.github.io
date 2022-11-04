@@ -27,9 +27,7 @@ li a:hover:not(active) {
 }
 
 /* body 1 krijgt een backgroundcolor volgens rgb*/
-#kop1 { color:brown;
-}
-#kop2 { color:brown;
+#kop19 { color:brown;
 }
 #body1 {
     background-color:rgb(187, 190, 233)
@@ -70,7 +68,10 @@ li a:hover:not(active) {
 }
 
 /* body 5 krijgt een backgroundcolor volgens rgb*/
-
+#kop1 { color:brown;
+}
+#kop2 { color:brown;
+}
 #body5 {
     background-color: rgb(189, 207, 145);
 }
