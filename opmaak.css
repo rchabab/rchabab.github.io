@@ -1,25 +1,23 @@
 
-/* De ul hieronder gaat om het menu van de website, overflow voorkomt dat je gaat scrollen wanneer een deel van de tekst te groot is, de padding betekent hoeveel de menutekst
-van de zijkant af zit en de margin houdt de afstand tussen de eerste stuk tekst en het menu*/
+/* De ul hieronder gaat om het menu van de website*/  
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    margin: 0; /*de margin houdt de afstand tussen de eerste stuk tekst en het menu*/
+    padding: 0; /* de padding betekent hoeveel de menutekst van de zijkant af zit */
+    overflow: hidden; /*overflow voorkomt dat je gaat scrollen wanneer een deel van de tekst te groot is*/
     background-color:rgb(187, 190, 233);
 }
 
-/* li a staat voor de inhoud van het menu, zo krijgt het menu een kleur en de grootte bepaald. Float left houdt in dat de teksten van menu aan de linkerkant staan, de display 
-krijgt voor elkaar dat de grootte samen met de padding wordt bepaald. Color is de kleir van mijn tekst in het menubalk en de background color is daar de achtergrond van */
+/* li a staat voor de inhoud van het menu, zo krijgt het menu een kleur en de grootte bepaald */
 
 li a {
-    float: left;
-    display:block;
-    color:rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: rgb(255, 255, 255);
+    float: left; /*Float left houdt in dat de teksten van menu aan de linkerkant staan*/
+    display:block; /*de display krijgt voor elkaar dat de grootte samen met de padding wordt bepaald*/
+    color:rgb(0, 0, 0); /*color is de kleur van de tekst in mijn menubalk*/
+    text-align: center; /* de horizontale uitlijning van de text in dit geval midden, center */
+    padding: 14px 16px; /* de padding betekent hoeveel de menutekst van de zijkant af zit */
+    text-decoration: none; /*decoratie van de tekst*/
+    background-color: rgb(255, 255, 255); /*de background color is de achtergrond van de menubalk*/
 }
 /*De hover betekent de kleur van de tekst in je menu. Als je over een van de pagina's gaat met de muis zie je deze kleur. De tekst wordt okergelig*/
 li a:hover:not(active) {
