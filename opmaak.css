@@ -47,10 +47,24 @@ li a:hover:not(active) {
 
 }
 /* body 3 krijgt een backgroundcolor volgens rgb*/
+#kop6 { color:brown;
+}
+#kop7 { color:brown;
+}
+#kop8 { color:brown;
+}
+#kop9 { color:brown;
+}
 #body3 {
     background-color:rgb(192, 196, 248) ;
 }
 /* body 4 krijgt een backgroundcolor volgens rgb*/
+#kop9 { color:brown;
+}
+#kop10 { color:brown;
+}
+#kop11 { color:brown;
+}
 #body4 {
     background-color: rgb(199, 205, 240);
 }
