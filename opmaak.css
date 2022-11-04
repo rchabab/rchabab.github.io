@@ -63,6 +63,8 @@ li a:hover:not(active) {
 }
 #kop11 { color:brown;
 }
+#kop12 { color:brown;
+}
 #body4 {
     background-color: rgb(199, 205, 240);
 }
@@ -92,7 +94,7 @@ li a:hover:not(active) {
 footer {
     text-align: center;
     padding: 3px;
-    background-color: rgb(180, 92, 20);
-    color:rgb(141, 196, 248);
+    background-color: rgb(168, 103, 59);
+    color:rgb(185, 200, 212);
 }
 
