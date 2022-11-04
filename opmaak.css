@@ -29,7 +29,7 @@ li a:hover:not(active) {
 /* body 1 krijgt een backgroundcolor volgens rgb*/
 #kop1 { color:brown;
 }
-#kop2 { color:brown;
+#kop2 { color:rgb(153, 40, 40);
 }
 #body1 {
     background-color:rgb(187, 190, 233)
