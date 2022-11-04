@@ -36,28 +36,47 @@ li a:hover:not(active) {
 
 }
 /* body 2 krijgt een backgroundcolor volgens rgb*/
+#kop3 { color:brown;
+}
+#kop4 { color:brown;
+}
 #body2 {
     background-color:rgb(165, 199, 236)
 
 }
 /* body 3 krijgt een backgroundcolor volgens rgb*/
+id="kop5"
+id="kop6"
+id="kop7"
 #body3 {
     background-color:rgb(192, 196, 248) ;
 
 }
 /* body 4 krijgt een backgroundcolor volgens rgb*/
+id="kop8"
+id="kop9"
+id="kop10"
 #body4 {
     background-color: rgb(199, 205, 240);
 }
 /* body 5 krijgt een backgroundcolor volgens rgb*/
+id="kop11"
+id="kop12"
+id="kop13"
 #body5 {
     background-color: rgb(189, 207, 145);
 }
 /* body 6 krijgt een backgroundcolor volgens rgb*/
+id="kop14"
+id="kop15"
+id="kop16"
 #body6 {
     background-color: rgb(196, 225, 226);
 }
 /* body 7 krijgt een backgroundcolor volgens rgb*/
+id="kop17"
+id="kop18"
+id="kop19"
 #body7 {
     background-color: rgb(178, 204, 226);
 }
