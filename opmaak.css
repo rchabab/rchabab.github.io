@@ -23,10 +23,12 @@ li a {
 }
 /*De hover betekent de kleur van de tekst in je menu. Als je over een van de pagina's gaat met de muis zie je deze kleur. De tekst wordt okergelig*/
 li a:hover:not(active) {
-    background-color: rgba(235, 190, 124, 0.671);
+    background-color: rgb(235, 190, 124, 0.671);
 }
 
 /* body 1 krijgt een backgroundcolor volgens rgb*/
+#kop1 { color:brown;
+}
 #body1 {
     background-color:rgb(187, 190, 233)
 
