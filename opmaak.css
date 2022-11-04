@@ -27,7 +27,7 @@ li a:hover:not(active) {
 }
 
 /* body 1 krijgt een backgroundcolor volgens rgb*/
-#kop19 { color:brown;
+#kop19 { color:brown; /*de #kop gevolgd door id nummer verwijst naar de id's en geeft zo door css een kleur aan de tekst voor id.*/
 }
 #body1 {
     background-color:rgb(187, 190, 233)
