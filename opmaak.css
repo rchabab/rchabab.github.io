@@ -87,9 +87,7 @@ li a:hover:not(active) {
 #body7 {
     background-color: rgb(178, 204, 226);
 }
-#body8 {
-    background-color: rgb(199, 205, 240);
-}
+#body8 {}
 /* footer krijgt een backgroundcolor in het donkerrood en lettertype in het lichtblauw*/
 footer {
     text-align: center;
