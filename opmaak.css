@@ -95,6 +95,13 @@ footer {
     background-color: rgb(168, 103, 59);
     color:rgb(185, 200, 212);
 }
+#body9 {}
+/* footer krijgt een backgroundcolor in het donkerrood en lettertype in het lichtblauw*/
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(168, 103, 59);
+    color:rgb(185, 200, 212);
 .dropbtn {
     background-color: #04AA6D;
     color: white;
