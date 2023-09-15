@@ -95,7 +95,8 @@ footer {
     background-color: rgb(168, 103, 59);
     color:rgb(185, 200, 212);
 }
-#body9 {}
+#body9 {    background-color: rgb(178, 204, 226);
+}
 /* footer krijgt een backgroundcolor in het donkerrood en lettertype in het lichtblauw*/
 footer {
     text-align: center;
