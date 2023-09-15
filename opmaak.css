@@ -135,7 +135,7 @@ footer {
   
   .dropdown-content a:hover {background-color: #f1f1f1;}
   .dropdown:hover .dropdown-content {display: block;}
-  .dropdown:hover .dropbtn {background-color: #ddbf7e;}
+  .dropdown:hover .dropbtn {background-color: #dabf85c5;}
 
 <h2>Hoverable Dropdown</h2>
 <p>Move the mouse over the button to open the dropdown menu.</p>
