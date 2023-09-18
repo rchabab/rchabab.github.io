@@ -65,7 +65,8 @@ li a:hover:not(active) {
 #body4 {
     background-color: rgb(199, 205, 240);
 }
-
+#kop20 { color:rgb(218, 117, 206);
+}
 /* body 5 krijgt een backgroundcolor volgens rgb*/
 #kop1 { color:brown;
 }
