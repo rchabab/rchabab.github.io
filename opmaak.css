@@ -69,6 +69,8 @@ li a:hover:not(active) {
 }
 #kop21 { color:rgb(202, 163, 197);
 }
+#kop22 { color:rgb(202, 163, 197);
+}
 /* body 5 krijgt een backgroundcolor volgens rgb*/
 #kop1 { color:brown;
 }
@@ -93,7 +95,9 @@ li a:hover:not(active) {
 #body22 { 
     background-color: rgb(178, 204, 226); 
 }
-
+#body23 { 
+    background-color: rgb(208, 203, 148); 
+}
 /* footer krijgt een backgroundcolor in het donkerrood en lettertype in het lichtblauw*/
 footer {
     text-align: center;
