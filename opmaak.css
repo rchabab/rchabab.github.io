@@ -123,6 +123,15 @@ footer {
 }
 #body9 {    background-color: rgb(178, 204, 226);
 }
+#link1 {
+    color:white
+    background-color: (200, 230, 220); 
+    padding: 8px 8px; 
+    text-align: center;
+    text-decoration: none;
+
+
+}
 /* footer krijgt een backgroundcolor in het donkerrood en lettertype in het lichtblauw*/
 footer {
     text-align: center;
