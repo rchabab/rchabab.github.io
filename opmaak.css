@@ -159,14 +159,14 @@ footer {
     display: none;/* Deze regel verbergt het element (display: none) waardoor het eigenlijk onzichtbaar is. */
     position: absolute; /* Dit positioneert het element absoluut binnen zijn bovenliggende container, met zijn rechterrand tegen de rechterrand van die container. */
     right: 0;
-    background-color: #f9f9f9; /* Dit geeft het element een achtergrondkleur van lichtgrijs (#f9f9f9). */
+    background-color: #f3e2f5; /* Dit geeft het element een achtergrondkleur van lichtgrijs (#f9f9f9). */
     min-width: 160px; /* Dit stelt de minimale breedte van het element in op 160 pixels. */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Dit voegt een schaduweffect toe aan het element met schaduw onder en aan de rechterkant, met een lichte grijze kleur */
     z-index: 1;
   }
   /* Dit is de stijl voor de links in de dropdown (dropdown-content a). */
   .dropdown-content a {
-    color: black;
+    color: rgb(3, 37, 128);
     padding: 12px 16px; /* Dit stelt de binnenste vulling van het element in op 12 pixels boven en onder, en 16 pixels links en rechts. */
     text-decoration: none;/* Dit verwijdert de standaard onderstreping van tekstlinks. Hierdoor wordt de tekst niet onderstreept. */
     display: block;/* Dit verandert het weergavetype van het element naar 'block', waardoor het element een volledige regelruimte inneemt en op een nieuwe regel begint. */
