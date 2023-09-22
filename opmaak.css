@@ -138,6 +138,8 @@ footer {
     padding: 3px;
     background-color: rgb(168, 103, 59);
     color:rgb(185, 200, 212);}
+   
+    /* Dit is de stijl voor een dropdown-knop (dropbtn). */
 .dropbtn {
     background-color: #d1bf90;
     color: white;
@@ -146,12 +148,12 @@ footer {
     border: none;
     cursor: pointer;
   }
-  
+  /* Dit is de stijl voor het container-element van de dropdown (dropdown). */
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
+  /* Dit is de stijl voor de inhoud van de dropdown (dropdown-content). */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -161,15 +163,15 @@ footer {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
+  /* Dit is de stijl voor de links in de dropdown (dropdown-content a). */
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
-  
+  /* Dit is de stijl voor de hover-toestand van de links in de dropdown (dropdown-content a:hover). */
   .dropdown-content a:hover {background-color: #f1f1f1;}
   .dropdown:hover .dropdown-content {display: block;}
-  .dropdown:hover .dropbtn {background-color: #c9a963c5;}
+  .dropdown:hover .dropbtn {background-color: #ee00cec5;}
 
