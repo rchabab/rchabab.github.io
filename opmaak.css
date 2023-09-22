@@ -173,7 +173,7 @@ footer {
 
   }
   /* Dit is de stijl voor de hover-toestand van de links in de dropdown (dropdown-content a:hover). */
-  .dropdown-content a:hover {background-color: #f1f1f1;}
+  .dropdown-content a:hover {background-color: #ffdefb;}
   .dropdown:hover .dropdown-content {display: block;}
   .dropdown:hover .dropbtn {background-color: #ee00cec5;}
 
