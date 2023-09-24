@@ -22,15 +22,15 @@ li a {
 li a:hover:not(active) {
     background-color: rgb(207, 168, 108, 0.671);
 }
+/* body 1 krijgt een backgroundcolor volgens rgb dit geldt vervolgens voor elke body met haar eigen nummer en kleur, dit gaat volgens rgb. Voor de koppen geldt dat ook, het verschil is
+dat de koppen betekenen de tekstkleur van een tussenkopje om het zo te zeggen en body de achtergrondskleur van de hele pagina (body)*/
 
-/* body 1 krijgt een backgroundcolor volgens rgb*/
 #kop19 { color:rgb(51, 28, 134); /*de #kop gevolgd door id nummer verwijst naar de id's en geeft zo door css een kleur aan de tekst voor id dit geldt voor alle koppen*/
 }
 #body1 {
     background-color:rgb(187, 190, 233)
 
 }
-/* body 2 krijgt een backgroundcolor volgens rgb*/
 #kop3 { color:brown;
 }
 #kop4 { color:brown;
@@ -115,8 +115,8 @@ dat de koppen betekenen de tekstkleur van een tussenkopje om het zo te zeggen en
 
 /* footer krijgt een backgroundcolor in het donkerrood en lettertype in het lichtblauw*/
 footer {
-    text-align: center;
-    padding: 3px;
+    text-align: center; /* Centreert de tekst horizontaal binnen het element. */
+    padding: 3px; /* Voegt 3 pixels aan alle vier de zijden (boven, onder, links, rechts) van het element toe. */
     background-color: rgb(204, 0, 255);
     color:rgb(185, 200, 212);
 }
@@ -143,12 +143,12 @@ footer {
    
     /* Dit is de stijl voor een dropdown-knop (dropbtn). */
 .dropbtn {
-    background-color: #d190a6;
-    color: rgb(213, 229, 236);
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+    background-color: #d190a6;/* Stelt de achtergrondkleur in op een tint van roze/paars. */
+    color: rgb(213, 229, 236);/* Stelt de tekstkleur in op een tint van lichtblauw/grijs. */
+    padding: 16px;/* Voegt 16 pixels ruimte toe aan alle zijden van het element. */
+    font-size: 16px;/* Stelt de lettergrootte in op 16 pixels. */
+    border: none;/* Verwijdert de rand (geen rand) rondom het element. */
+    cursor: pointer;/* Wanneer de muisaanwijzer over het element beweegt, verandert deze in een handje, wat aangeeft dat het element interactief is. */
   }
   /* Dit is de stijl voor het container-element van de dropdown (dropdown). */
   .dropdown {
