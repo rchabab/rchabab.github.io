@@ -35,31 +35,33 @@ Hi, welkom op de pagina over Von Neumann Architectuur. Ik kreeg de keus uit een 
 uiteindelijk voor de architectuur van Von Neumann. Ik zal eerst wat vertellen over Neumann zelf, vervolgens gaan we ons verdiepen op de architectuur zelf. Veel leesplezier!
 (ps. Als je er een duidelijker beeld bij wilt krijgen, zit er onderaan de pagina ook nog een link naar een uitlegvideo)
 <h3 id="kop23">John von Neumann</h3>
-John von Neumann, geboren op 28 december 1903 in Boedapest, Hongarije, hij was wiskundige, natuurkundige en informaticus
+John von Neumann, geboren op 28 december 1903 in Boedapest, Hongarije, was een wiskundige, natuurkundige en informaticus
 en leefde van 1903 tot 1957. Hij staat bekend om zijn baanbrekende bijdragen aan verschillende wetenschappelijke gebieden
 waaronder de ontwikkeling van de moderne computerarchitectuur en de theorie van de speltheorie. John maakte belangrijke vorderingen in de kwantummechanica (tak van natuurkunde die zich bezig houdt met deeltjes kleiner dan atomen). 
 Zijn werk legde de basis voor de hedendaagse wetenschap in de computerwereld en heeft een zelfs blijvende invloed gehad op 
 domeinen die gaan over de economie tot aan militaire strategieën (wie had dat gedacht!). In 1945 werd de Von Neumann-architectuur dan voor het eerst gepubliceerd. Toen Neumann op 8 februari 1957 stierf 
 aan een heftige vorm van kanker, droefde dit de wetenschappelijke gemeenschap enorm erg, maar het mooiste wat hij heeft achtergelaten waren de blijvende ideeën 
 in de informatica, wiskunde en natuurkunde. John wordt nog vaak beschouwd als een van de grootste 
-geesten van de 20e eeuw en zijn werk levert nog veel waarde voor de moderne wetenschap. 
+geesten van de 20e eeuw en zijn werk levert uiteraard nog veel waarde voor de moderne wetenschap!
 <h3 id="kop23">De architectuur</h3> <!--de woorden die tussen strong staan worden dikgedrukt-->
 John zijn ontwerp bestaat uit een besturingseenheid, een rekenkundige en een logische eenheid, (ALU), een geheugeneenheid,
 registers en invoer/uitvoer. De architectuur van Neumann is gebaseerd op het computerconcept met opgeslagen programma's, waarbij instructiegegevens
 en programma's in hetzelfde geheugen worden opgeslagen. Dit ontwerp wordt nog steeds gebruikt in de meeste computers die tot de dag van vandaag
 worden geproduceerd. In de door Von Neumann ontworpen computer staat de processor (CPU) centraal. De CPU communiceert met het geheugen. <strong>Externe invoer en uitvoer</strong> stuurt de CPU naar de randapparatuur; muizen, toetsenborden, speakers etc. 
 De cpu haalt stap voor stap zijn instructies uit het geheugen.<strong>De CPU (Central Processing Unit)</strong> is een elektronische circuit dat de instructies van een computerprogramma uitvoert, ook wel de (micro)processor. Wil je uitgebreider over de Processor lezen, dan verwijs ik je naar de volgende pagina:  <a id="link1" href="fysiekelaag.html">Klik hier om over de fysieke laag te lezen, hier lees je ook over de processor.</a> <!--dit is een link naar de pagina van over de fysieke laag-->
-De CPU bevat ook de Control Unit en velen registers, dit zijn simelweg opslaggebieden in de CPU. Alle gegevens moeten in een register 
+De CPU bevat ook de Control Unit en velen registers, registers zijn simelweg opslaggebieden in de CPU. Alle gegevens moeten in een register 
 opgeslagen worden voordat ze kunnen worden verwerkt. Zo heb je het <strong>MAR (Memory Adress Register)</strong> deze bevat de geheugenlocatie van gegevens
 waartoe toegang moet worden verkregen. En je hebt ook het <strong>MDR (Memory Data Register)</strong> Deze bevat gegevens die van of naar het geheugen worden overgebracht.
 overgebracht. Naast registers bevat het besturingssysteem ook een <strong>programmateller</strong> De programmateller houdt bij welke instructie in het geheugen op dit moment 
-wordt uitgevoerd door de CPU. Het is een cruciaal onderdeel van de besturingseenheid van de CPU en speelt een centrale rol in het sequentiële uitvoeringsproces van instructies
+wordt uitgevoerd door de CPU. Het is een cruciaal onderdeel van de besturingseenheid van de CPU en speelt een centrale rol in het sequentiële uitvoeringsproces van instructies, wat betekent dat instructies één voor één worden uitgevoerd in de volgorde waarin ze in het geheugen zijn opgeslagen. 
 <h3 id="kop23">Rekenkundige, logische én de controle eenheid</h3><!--de woorden die tussen strong staan worden dikgedrukt-->
 Zoals we inmiddels weten helpt de ALU bij het maken van <strong>rekenkundige bewerkingen</strong>
-denk letterlijk aan optellen, aftrekken etc. En helpt hij ook bij de <strong>logische bewerkingen</strong>, denk 
+denk letterlijk aan optellen, aftrekken etc. Dit wordt mogelijk gemaakt door dus het sequentiële uitvoeringsproces, 
+alle stappen gaan 1 voor 1, net als wanneer jijzelf een lastige som maakt. En helpt hij ook bij de <strong>logische bewerkingen</strong>, denk 
 nu aan And, Or, Not, etc. <strong>De Controle eenheid</strong>(de CU) bestuurt de werking van de ALU, het geheugen en de 
   invoer-/uitvoerapparaten van de computer en vertelt ze hoe ze erop moeten reageren. Hiernaast levert hij ook de timing- en besturingsplan
-  die nodig zijn voor ándere computercomponenten. 
+  die nodig zijn voor ándere computercomponenten. Deze verwijst naar de planning en het beheer van de timing van kritieke gebeurtenissen 
+  en controle-operaties binnen een computer of microprocessor. Het is van groot belang voor het ontwerpen van efficiënte en betrouwbare computersystemen.
   <h3 id="kop23">De drie bussen</h3><!--de woorden die tussen strong staan worden dikgedrukt-->
 <strong>De Adresbus:</strong> Draagt de adressen van gegevens (niet gegevens zelf) tussen de processor en het geheugen.
 <br>
@@ -68,7 +70,10 @@ nu aan And, Or, Not, etc. <strong>De Controle eenheid</strong>(de CU) bestuurt d
 <strong>De Controlebus:</strong> Draagt besturingssignalen, oftewel, opdrachten van de CPU over om alle activiteiten binnen de computer te controleren en coördineren.
 <h3 id="kop23">Voordelen van deze architectuur</h3>
 De architectuur die John jaren terug heeft uitgevonden bracht een hele boel voordelen met zich mee. Je leest nu een aantal daarvan.
-<strong>Eenvoud:</strong> De architectuur is makkelijk te begrijpen en toe te passen. Dit heeft bijgedragen aan een bredere adoptie ervan.
+<strong>Eenvoud:</strong> De architectuur is makkelijk te begrijpen en toe te passen. Neumann wist natuurlijk
+zelf hoe lastig dingen konden zijn, denk aan alle moeilijke vakken die hij bestudeerde, daarom heeft hij zijn 
+best gedaan om de architectuur duidelijke begrippen te geven en de werkingen ervan ook duidelijk over 
+te laten komen voor zijn volgelingen. Dit heeft bijgedragen aan een bredere adoptie ervan.
 <br>
 <strong>Efficiëntie:</strong> De CPU kan snel schakelen tussen het uitvoeren van instructies en het verwerken van gegevens, wat de 
 gehele verwerkingsefficiëntie verbetert en alles duidelijker is voor het hele systeem.
