@@ -159,7 +159,7 @@ footer {
     display: none;/* Deze regel verbergt het element (display: none) waardoor het eigenlijk onzichtbaar is. */
     position: absolute; /* Dit positioneert het element absoluut binnen zijn bovenliggende container, met zijn rechterrand tegen de rechterrand van die container. */
     right: 0;
-    background-color: #f3e2f5; /* Dit geeft het element een achtergrondkleur van lichtgrijs (#f9f9f9). */
+    background-color: #d1e2cc; /* Dit geeft het element een achtergrondkleur van lichtgrijs (#f9f9f9). */
     min-width: 160px; /* Dit stelt de minimale breedte van het element in op 160 pixels. */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Dit voegt een schaduweffect toe aan het element met schaduw onder en aan de rechterkant, met een lichte grijze kleur */
     z-index: 1;
