@@ -98,7 +98,8 @@ li a:hover:not(active) {
 #body6 {
     background-color: rgb(196, 225, 226);
 }
-/* body 7 krijgt een backgroundcolor volgens rgb*/
+/* body 7 krijgt een backgroundcolor volgens rgb dit geldt vervolgens voor elke body met haar eigen nummer en kleur. Voor de koppen geldt dat ook, het verschil is
+dat de koppen betekenen de tekstkleur van een tussenkopje om het zo te zeggen en body de achtergrondskleur van de hele pagina (body)*/
 #body7 {
     background-color: rgb(178, 204, 226);
 }
