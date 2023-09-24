@@ -15,7 +15,7 @@ li a {
     color:rgb(0, 0, 0); /*color is de kleur van de tekst in mijn menubalk*/
     text-align: center; /* de horizontale uitlijning van de text in dit geval midden, center */
     padding: 14px 16px; /* de padding betekent hoeveel de menutekst van de zijkant af zit */
-    text-decoration: none; /*decoratie van de tekst*/
+    text-decoration: none; /*decoratie van de tekst, is er niet*/
     background-color: rgb(255, 255, 255); /*de background color is de achtergrond van de menubalk*/
 }
 /*De hover betekent de kleur van de tekst in je menu. Als je over een van de pagina's gaat met de muis zie je deze kleur. De tekst wordt okergelig*/
