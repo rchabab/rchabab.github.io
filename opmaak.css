@@ -71,7 +71,7 @@ dat de koppen betekenen de tekstkleur van een tussenkopje om het zo te zeggen en
 }
 #kop50 { color:rgb(204, 90, 90);
 }
-#kop23 { color:rgb(0, 17, 255);
+#kop23 { color:rgb(255, 0, 179);
 }
 #kop24 { color:rgb(88, 119, 82);
 }
@@ -123,12 +123,12 @@ footer {
 #body9 {    background-color: rgb(178, 204, 226);
 }
 #link1 {
-    color: #ce0985; /* Aangepaste kleur voor de tekst */
+    color: #ff02a2; /* Aangepaste kleur voor de tekst */
     text-decoration: none; /* Verwijder standaard onderstreping */
     font-weight: bold; /* Maak de tekst vetgedrukt */
 }
 #link1:hover {
-    color: #d1089b; /* Aangepaste kleur voor de tekst bij hover */
+    color: #ef03b0; /* Aangepaste kleur voor de tekst bij hover */
     text-decoration: underline; /* Onderstreep de tekst bij hover */
 }
 
