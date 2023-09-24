@@ -123,12 +123,12 @@ footer {
 #body9 {    background-color: rgb(178, 204, 226);
 }
 #link1 {
-    color: #1a9b00; /* Aangepaste kleur voor de tekst */
+    color: #ff002b; /* Aangepaste kleur voor de tekst */
     text-decoration: none; /* Verwijder standaard onderstreping */
     font-weight: bold; /* Maak de tekst vetgedrukt */
 }
 #link1:hover {
-    color: #08d144; /* Aangepaste kleur voor de tekst bij hover */
+    color: #a908d1; /* Aangepaste kleur voor de tekst bij hover */
     text-decoration: underline; /* Onderstreep de tekst bij hover */
 }
 
